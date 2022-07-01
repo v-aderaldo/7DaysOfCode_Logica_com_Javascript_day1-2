@@ -1,0 +1,18 @@
+:root {
+  --branco: #FFF;
+  --preto: #000;
+  --amarelo: #FF9F29;
+  --verde: #1A4D2E;
+  --bege-claro: #F0EBE3;
+  --ibm: 'IBM Plex Mono', monospace;
+  --roboto: 'Roboto', sans-serif;
+}
+
+.container {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+body {
+  font-family: var(--roboto);
+}
