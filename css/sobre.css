@@ -1,15 +1,16 @@
 .sobreOprojeto {
   text-align: center;
-  padding-top: 1rem;
 }
 
 .sobreOprojeto-titulo {
   font-weight: 700;
   /* color: var(--branco); */
   font-size: 1.5rem;
+  padding: 1rem 0;
 }
 
 .sobreOprojeto-texto {
   /* color: var(--branco); */
   font-size: 1.1rem;
+  line-height: 1.5rem;
 }
