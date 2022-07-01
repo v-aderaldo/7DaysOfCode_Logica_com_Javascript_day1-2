@@ -1,6 +1,8 @@
 :root {
   --branco: #FFF;
   --preto: #000;
+  --cinza-medio: #D0C9C0;
+  --cinza-claro: #DFDFDE;
   --amarelo: #FF9F29;
   --verde: #1A4D2E;
   --bege-claro: #F0EBE3;
@@ -9,8 +11,8 @@
 }
 
 .container {
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 main {

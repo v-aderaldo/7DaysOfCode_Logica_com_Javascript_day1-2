@@ -1,16 +1,24 @@
 .sobreOprojeto {
   text-align: center;
+  background: var(--preto);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: 5px solid rgba(208, 201, 192, 0.1);
 }
 
 .sobreOprojeto-titulo {
   font-weight: 700;
-  /* color: var(--branco); */
+  color: var(--cinza-claro);
   font-size: 1.5rem;
-  padding: 1rem 0;
+  margin-bottom: 1rem;
 }
 
 .sobreOprojeto-texto {
-  /* color: var(--branco); */
+  color: var(--cinza-medio);
   font-size: 1.1rem;
-  line-height: 1.5rem;
+  line-height: 2rem;
+}
+
+.sobreOprojeto-texto strong {
+  font-weight: 700;
 }
