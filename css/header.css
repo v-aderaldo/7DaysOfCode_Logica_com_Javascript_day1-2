@@ -30,3 +30,10 @@
   color: var(--branco);
   font-size: 1.1rem;
 }
+
+@media screen and (min-width: 1024px) {
+  .cabecalho {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   font-family: var(--ibm);
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
+  padding-top: 2rem;
+  background: var(--cinza-claro);
 }
 
 .rodape-titulo {
@@ -50,4 +50,28 @@
   font-size: 0.8rem;
   color: var(--cinza-escuro);
   margin: 1rem 0;
+}
+
+@media screen and (min-width:1024px) {
+  .rodape {
+    padding-left: calc((100% - 968px)/2);
+    padding-right: calc((100% - 968px)/2);
+  }
+
+  .rodape-bloco {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .rodape nav ul {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .rodape-itemNav {
+    margin-left: 0;
+    margin-right: 2.5rem;
+  }
 }
