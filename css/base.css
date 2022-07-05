@@ -5,7 +5,6 @@
   --cinza-medio: #D0C9C0;
   --cinza-claro: #DFDFDE;
   --amarelo: #FF9F29;
-  --verde: #1A4D2E;
   --bege-claro: #F0EBE3;
   --ibm: 'IBM Plex Mono', monospace;
   --roboto: 'Roboto', sans-serif;
@@ -18,4 +17,15 @@
 
 main {
   font-family: var(--roboto);
+}
+
+.botao {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem 2rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+  background: var(--amarelo);
+  border: 1px solid var(--amarelo);
+  border-radius: 5px;
 }

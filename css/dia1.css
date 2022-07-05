@@ -1,0 +1,8 @@
+.paraAsaida {
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.paraAsaida strong {
+  font-weight: 700;
+}

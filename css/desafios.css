@@ -6,7 +6,7 @@
 }
 
 .desafios-titulo {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
   color: var(--branco);
@@ -32,18 +32,35 @@
 .desafios-img {
   width: 100vw;
   max-width: 550px;
+  box-shadow: var(--preto) 0px 5px 15px;
 }
 
 .desafios-caption {
   color: var(--cinza-escuro);
   font-size: 1.3rem;
   font-weight: 700;
-  padding-top: 0.5rem;
+  padding-top: 1rem;
+}
+
+@media screen and (min-width:1024px) {
+  .desafios-fig {
+    transition: 0.3s;
+  }
+
+  .desafios-fig:hover {
+    transform: scale(1.01);
+  }
+
+  .desafios-fig:hover .desafios-caption {
+    color: var(--amarelo);
+  }
 }
 
 @media screen and (min-width: 1280px) {
   .desafios-a {
     flex-direction: row;
     justify-content: space-around;
+    padding-left: calc((100% - 2560px)/2);
+    padding-right: calc((100% - 2560px)/2);
   }
 }

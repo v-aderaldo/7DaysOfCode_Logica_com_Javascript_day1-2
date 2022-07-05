@@ -2,24 +2,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: var(--preto);
   padding-top: 1rem;
   padding-bottom: 1rem;
   border-top: 5px solid rgba(208, 201, 192, 0.1);
+  background: var(--preto);
 }
 
 .sobreOprojeto-titulo {
   font-weight: 700;
-  color: var(--cinza-claro);
   font-size: 1.5rem;
   margin-bottom: 1rem;
+  color: var(--cinza-claro);
 }
 
 .sobreOprojeto-texto {
-  color: var(--cinza-medio);
   text-align: center;
   font-size: 1.1rem;
   line-height: 2rem;
+  color: var(--cinza-medio);
 }
 
 .sobreOprojeto-texto strong {
@@ -27,30 +27,42 @@
 }
 
 .botoesSobre {
-  margin: 2rem auto;
-  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
+  margin: 2rem auto;
 }
 
 .botoesSobre a {
   text-decoration: none;
   text-align: center;
-  color: var(--preto);
   font-weight: 700;
   font-size: 1.2rem;
   box-sizing: border-box;
   width: 40%;
   max-width: 200px;
   padding: 1rem 0;
+  border-radius: 2px;
   border: 2px solid var(--cinza-claro);
   background: var(--cinza-claro);
-  border-radius: 2px;
+  color: var(--preto);
 }
 
 @media screen and (min-width: 768px) {
   .sobreOprojeto-texto, .botoesSobre {
     max-width: 700px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .botoesSobre a {
+    transition: 0.3s;
+  }
+
+  .botoesSobre a:hover {
+    border: 2px solid var(--amarelo);
+    background: var(--amarelo);
+    transform: scale(1.1);
   }
 }

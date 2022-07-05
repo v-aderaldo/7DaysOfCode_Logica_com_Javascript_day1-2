@@ -1,13 +1,13 @@
 .cabecalho {
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: var(--preto);
+  width: 100%;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-family: var(--ibm);
   box-sizing: border-box;
+  background: var(--preto);
+  font-family: var(--ibm);
 }
 
 .logoCabecalho {
@@ -35,5 +35,19 @@
   .cabecalho {
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  .itemNav {
+    transition: 0.3s;
+  }
+
+  .itemNav:hover {
+    transform: scale(1.1);
+  }
+
+  .itemNav a:hover {
+    color: var(--amarelo);
+    text-decoration: underline;
+    font-weight: 700;
   }
 }
