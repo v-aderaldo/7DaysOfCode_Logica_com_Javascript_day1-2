@@ -12,6 +12,7 @@
 label {
   font-size: 1.1rem;
   font-weight: 700;
+  color: var(--bege-claro);
 }
 
 input[type=text] {
@@ -19,8 +20,10 @@ input[type=text] {
   width: 90%;
   padding: 1rem 0.5rem;
   margin-top: 0.5rem;
-  border: 1px solid var(--cinza-claro);
-  box-shadow: var(--preto) 0px 1px 3px;
+  border: none;
+  background: none;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
 
 .mensagem-NomeIdadeLinguagem {
@@ -28,7 +31,7 @@ input[type=text] {
   font-weight: 700;
   text-align: left;
   max-width: 400px;
-  margin: 1rem 0 3rem 0;
+  padding-bottom: 3rem;
   color: var(--verde);
 }
 

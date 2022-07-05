@@ -3,7 +3,7 @@
   flex-direction: column;
   font-family: var(--ibm);
   padding-top: 2rem;
-  background: var(--cinza-claro);
+  background: linear-gradient(var(--cinza-claro), var(--branco) 20%)
 }
 
 .rodape-titulo {
