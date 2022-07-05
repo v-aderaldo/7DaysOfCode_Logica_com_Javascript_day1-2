@@ -39,5 +39,5 @@ const porTexto = document.querySelector('.paraAsaida')
 
 botaoRun.onclick = function() {
   day1();
-  porTexto.innerHTML = "<strong>output if1 &#62;</strong> " + if1 + "<br>" + "<strong>output if2 &#62;</strong> " + if2 + "<br>" + "<strong>output if3 &#62;</strong> " + if3;
+  porTexto.innerHTML = "<strong>output if1 &#62;</strong> " + if1 + "<br><br>" + "<strong>output if2 &#62;</strong> " + if2 + "<br><br>" + "<strong>output if3 &#62;</strong> " + if3;
 }

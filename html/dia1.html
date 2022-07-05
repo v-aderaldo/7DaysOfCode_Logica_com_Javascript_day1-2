@@ -32,13 +32,63 @@
     </header>
     <!-- main -->
     <main>
-      <section class="container">
-        <fieldset class="botao-fieldset">
-          <input class="botao" type="submit" value="Run">
-        </fieldset>
-        <p class="paraAsaida"></p>
+      <!-- breve descrição do desafio -->
+      <section class="descrDesafio container">
+        <h2 class="descrDesafio-titulo">Descrição do desafio</h1>
+        <p class="descrDesafio-texto">No primeiro dia de desafios, utilizamos estruturas condicionais para verificar a diferença entre dois operadores de igualdade: "==" e "===".</p>
       </section>
-      <!-- botão de Run -->
+      <!-- sobre o código -->
+      <section class="sobreOcodigo container">
+        <div class="sobreOcodigo-div">
+          <h3 class="sobreOcodigo-titulo">Código</h3>
+          <p class="sobreOcodigo-texto">Abaixo, um fragmento do código contendo as comparações entre variáveis de tipos diferentes. Você pode ver o resultado correto de cada <em>if</em> clicando em <em><strong>Run<strong></em>.</p>
+            <!-- declarações dos valores -->
+            <pre>
+              <code>
+                let if1;
+                let if2;
+                let if3;
+
+                // função com o código do dia 1
+                function day1() {
+                  let numeroUm = 1;
+                  let stringUm = '1';
+                  let numeroTrinta = 30;
+                  let stringTrinta = '30';
+                  let numeroDez = 10;
+                  let stringDez = '10';
+
+                  // comparação entre 1 e "1"
+                  if (numeroUm == stringUm) {
+                    if1 = 'As variáveis numeroUm e stringUm têm o mesmo valor, mas tipos diferentes.';
+                  } else {
+                    if1 = 'As variáveis numeroUm e stringUm não têm o mesmo valor.';
+                  }
+                  // comparação entre 30 e "30"
+                  if (numeroTrinta === stringTrinta) {
+                    if2 = 'As variáveis numeroTrinta e stringTrinta têm o mesmo valor e mesmo tipo.';
+                  } else {
+                    if2 = 'As variáveis numeroTrinta e stringTrinta não têm o mesmo tipo.';
+                  }
+                  // comparação entre 10 e "10"
+                  if (numeroDez == stringDez) {
+                    if3 = 'As variáveis numeroDez e stringDez têm o mesmo valor, mas tipos diferentes.';
+                  } else {
+                    if3 = 'As variáveis numeroDez e stringDez não têm o mesmo valor.';
+                  }
+                }
+              </code>
+            </pre>
+        </div>
+        <!-- botão e área de saída -->
+        <div class="botao-div">
+          <!-- botão de Run -->
+          <fieldset class="botao-fieldset">
+            <input class="botao" type="submit" value="Run">
+          </fieldset>
+          <p class="paraAsaida"></p>
+        </div>
+      </section>
     </main>
   </body>
   <!-- FOOTER -->
