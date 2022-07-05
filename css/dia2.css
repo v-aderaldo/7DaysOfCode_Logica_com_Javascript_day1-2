@@ -1,0 +1,40 @@
+.questao {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 500px;
+}
+
+.questao:first-child {
+  padding-top: 3rem;
+}
+
+label {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+input[type=text] {
+  font-size: 1.1rem;
+  width: 90%;
+  padding: 1rem 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid var(--cinza-claro);
+  box-shadow: var(--preto) 0px 1px 3px;
+}
+
+.mensagem-NomeIdadeLinguagem {
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: left;
+  max-width: 400px;
+  margin: 1rem 0 3rem 0;
+  color: var(--verde);
+}
+
+@media screen and (min-width:1024px) {
+  .conteudo {
+    padding-left: calc((100% - 500px)/2);
+    padding-right: calc((100% - 500px)/2);
+  }
+}
